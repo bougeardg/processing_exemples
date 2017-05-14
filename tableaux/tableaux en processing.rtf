@@ -1,0 +1,57 @@
+﻿Les tableaux en processing
+un tableau sert à stocker de manière ordonnées un ensemble d'objets du même type
+
+il se crée en plusieurs étapes : 
+////////////////////////////////////////////////////////////////////////////////
+1) la déclaration en début de programme : 
+////////////////////////////////////////////////////////////////////////////////
+
+// déclaration d'un tableau à une dimension qui contient des entiers (une liste en fait)
+int[] liste_entiers;
+
+// déclaration d'un tableau à une dimension qui contient des flottans en double précision 
+double[] liste_double;
+
+
+// déclaration d'un tableau à une dimension qui contient des objets du type voiture que l'on
+// pourrait avoir défini  précédemment(une liste en fait)
+voiture[] liste_voitures;
+
+// déclaration d'un tableau à deux dimensions qui contient des entiers 
+int[][] tableau_entiers;
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+2) la création du tableau au plus tard avant la première utilisation
+////////////////////////////////////////////////////////////////////////////////
+
+
+// création d'un tableau d'entiers de 5 lignes et 7 colonnes 
+tableau_entiers=new int[5][7];
+
+`// création d'un tableau  d'entiers de 6 lignes
+liste_entiers=new int[6];
+
+// création d'un tableau de flottants de 5 lignes  
+liste_double=new double[5];
+
+// création d'un tableau de 7 lignes (une liste de 7 éléments) contenant des objets voitures
+liste_voitures=new voiture[7]
+
+////////////////////////////////////////////////////////////////////////////////
+2) enregistrement - appel des valeurs enregistrées
+////////////////////////////////////////////////////////////////////////////////
+
+//Attention, les indices qui permettent de se repérer dans un tableau commencent à zéro.
+// dans la liste_entiers, l'indice peut donc varier entre 0 et 
+
+//enregistrement de la valeur 5.754 à la quatrième place
+
+liste_entiers[3]=5.754
+
+//utilisation d'une valeur 
+
+println("valeur de la case à la 2ième ligne et la 3ième colonne"+tableau_entiers[2][3]);
+
+
