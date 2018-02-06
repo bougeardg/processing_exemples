@@ -1,0 +1,5 @@
+ceci est la ligne n°0 du texte
+ceci est la ligne n°1 du texte
+ceci est la ligne n°2 du texte
+ceci est la ligne n°3 du texte
+ceci est la ligne n°4 du texte
